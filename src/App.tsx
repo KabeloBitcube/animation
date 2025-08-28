@@ -39,25 +39,6 @@ export default function App() {
               },
             }}
           >
-            <Tabs.Screen
-              name="tap"
-              component={Tap}
-              options={{
-                headerShown: false,
-                tabBarIcon: ({ color }) => <Ionicons size={28} name="heart" color={color} />,
-                title: 'Tap',
-              }}
-            />
-
-            <Tabs.Screen
-              name="carousel"
-              component={Carousel}
-              options={{
-                headerShown: false,
-                tabBarIcon: ({ color }) => <Ionicons size={28} name="images" color={color} />,
-                title: 'Carousel',
-              }}
-            />
 
             <Tabs.Screen
               name="menu"
@@ -66,6 +47,16 @@ export default function App() {
                 headerShown: false,
                 tabBarIcon: ({ color }) => <Ionicons size={28} name="menu" color={color} />,
                 title: 'Menu',
+              }}
+            />
+
+            <Tabs.Screen
+              name="tap"
+              component={Tap}
+              options={{
+                headerShown: false,
+                tabBarIcon: ({ color }) => <Ionicons size={28} name="heart" color={color} />,
+                title: 'Tap',
               }}
             />
 
@@ -106,6 +97,16 @@ export default function App() {
                 headerShown: false,
                 tabBarIcon: ({ color }) => <Ionicons size={28} name="trail-sign" color={color} />,
                 title: 'Move',
+              }}
+            />
+
+            <Tabs.Screen
+              name="carousel"
+              component={Carousel}
+              options={{
+                headerShown: false,
+                tabBarIcon: ({ color }) => <Ionicons size={28} name="images" color={color} />,
+                title: 'Carousel',
               }}
             />
 
