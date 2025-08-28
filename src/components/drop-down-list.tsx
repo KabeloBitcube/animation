@@ -24,7 +24,7 @@ const DropdownListItem: React.FC<DropdownListItemProps> = ({
     const expanedTop = (dropdownListItemHeight + margin) * index;
 
     const expandedScale = 1;
-    const collapsedScale = 1 - index * 0.08;
+    const collapsedScale = 1 - index * 0.10;
 
     const animatedStyle = useAnimatedStyle(() => {
         return {
@@ -48,7 +48,7 @@ const DropdownListItem: React.FC<DropdownListItemProps> = ({
             style={[{
                 width: windowWidth * 0.95,
                 height: dropdownListItemHeight,
-                backgroundColor: '#030303ff',
+                backgroundColor: '#767577',
                 borderRadius: 10,
                 position: 'absolute',
             },
