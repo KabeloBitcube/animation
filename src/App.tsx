@@ -12,7 +12,6 @@ import Theme from './screens/theme';
 import Scroll from './screens/scroll';
 import Move from './screens/move';
 import Rotation from './screens/rotation';
-import { StyleSheet, View } from 'react-native';
 
 const Tabs = createBottomTabNavigator<RootTabParamList>();
 
